@@ -1,0 +1,21 @@
+name: edgar_scraping
+channels:
+  - conda-forge
+dependencies:
+  - pip=25.3
+  - python>=3.12
+  - ipython=9.5.0
+  - nbformat=5.10.4
+  - jupyterlab=4.4.7
+  - pandas=2.3.3
+  - numpy=2.4.1
+  - beautifulsoup4=4.13.3
+  - main::selenium
+  - lxml=6.0.2
+  - psycopg2=2.9.11
+  - python-dotenv=1.2.1
+  - word2number=1.1
+  - langchain=1.2.7
+  - langgraph=1.0.7  
+  - ollama=0.15.4
+  - pandasql=0.7.3
