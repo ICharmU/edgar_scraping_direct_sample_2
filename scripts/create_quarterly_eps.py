@@ -203,6 +203,10 @@ def get_quarterly_figures(c_data: dict) -> pd.DataFrame:
     return quarterly
 
 
+def get_split_dates():
+    pass
+
+
 if __name__ == "__main__":
     print("starting...")
     VERBOSE = True # run with print statements
