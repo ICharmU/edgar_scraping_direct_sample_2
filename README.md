@@ -2,8 +2,11 @@
 
 Scripts:
 * download_daily_json.py - Downloads companyfacts.zip from [here](https://www.sec.gov/search-filings/edgar-application-programming-interfaces) and extracts the JSON contents  
-* create_quarterly_eps.py - Processes the JSON files from above by finding company identifiers and diluted EPS data  
-* runner.py - Runs all scripts in order  
+* create_quarterly_eps.py - Processes the JSON files from above by finding company identifiers and diluted EPS data
+* cik_ticker_map.py - Goes [here](https://sec.gov/include/ticker.txt) to download current tickers associated with CIK
+* ticker_mappings.py - Create ticker mapping table in postgres
+* q_eps_table.py - Create quarterly eps table in postgres
+* runner.py - Runner file for extracting/processing/loading data in appropriate order
 
 
 Running Scripts:
